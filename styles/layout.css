@@ -1,13 +1,13 @@
 :root {
-    --theme1-1: #f9f07f;
-    --theme1-2: #d2e68c;
-    --theme1-3: #aadc97;
-    --theme1-4: #7cd19f;
-    --theme1-5: #3fc6a6;
+    --white-dark: #28233b;
+    --white-darker: #554f9d;
+    --white-lighter: #5697b0;
+    --white-light: #4dc6b9;
 }
 
 html {
     font-size: 20px;
+    font-family: 'Uni Neue';
 }
 
 body {
@@ -17,33 +17,41 @@ body {
 
 .top-navigation {
     overflow: hidden;
-    padding: 0 5vw;
-    height: 3rem;
-    box-shadow: #c3b7b7 0 0 0.5rem 0;
+    height: 2.5rem;
+    border-bottom: solid hsla(249, 22%, 25%, 0.25) 1px;
 }
 
 .link-button {
     display: inline-flex;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1rem;
-    font-weight: 700;
-    color: #35314d;
+    font-size: 0.75rem;
+    color: var(--white-dark);
     height: 100%;
     padding: 0 1rem;
     justify-content: center;
     align-items: center;
+    transition: 0.2s ease-in-out;
 }
 
 .link-button:hover {
-    background-color: #def6f1;
-    transition: 0.5s;
+    color: var(--white-lighter);
 }
 
 .right {
     float: right;
 }
 
+main {
+    height: 500px;
+    padding-left: 2rem;
+}
+
 h1 {
-    text-transform: uppercase;
+    margin: 5rem 0 2rem;
+    color: var(--white-darker)
+}
+
+p {
+    color: #686868;
+    font-weight: 500;
 }

@@ -1,0 +1,17 @@
+@font-face {
+    font-family: Uni Neue;
+    src: url(../fonts/UniNeue-Trial-Bold.woff2);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Uni Neue;
+    src: url(../fonts/UniNeue-Trial-Heavy.woff2);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: Uni Neue;
+    src: url(../fonts/UniNeue-Trial-Black.woff2);
+    font-weight: 900;
+}
